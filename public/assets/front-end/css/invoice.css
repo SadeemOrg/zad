@@ -1,0 +1,156 @@
+body {
+   font-family: 'Montserrat', sans-serif
+}
+
+.card {
+   border: none
+}
+
+.totals tr td {
+   font-size: 13px
+}
+
+.footer span {
+   font-size: 12px
+}
+
+.product-qty span {
+   font-size: 14px;
+   color: #6A6A6A;
+}
+
+
+
+.spandHeadO {
+   color: #030303;
+   font-weight: 500;
+   font-size: 20px;
+
+}
+
+.font-name {
+   font-weight: 600;
+   font-size: 13px;
+}
+
+.amount {
+   font-size: 17px;
+   color: {{$web_config['primary_color']}};
+}
+
+@media (max-width: 600px) {
+   
+
+   .p-5 {
+       padding: 2% !important;
+   }
+
+   .spanTr {
+
+       font-weight: 400 !important;
+       font-size: 12px;
+   }
+
+   .spandHeadO {
+
+       font-weight: 300;
+       font-size: 12px;
+
+   }
+
+   .table th, .table td {
+       padding: 5px;
+   }
+}
+
+
+
+.main-div-invoise{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  width: 100%;
+}
+
+.name-invoice{
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.address{
+margin-bottom: 0.75rem;
+font-size: 16px;
+text-align: center;
+
+}
+
+.information-invoise{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.information-invoise-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.information-invoise-col p{
+ margin-top: 0.25rem;
+ margin-bottom: 0.25rem;
+}
+
+.table-div{
+  margin-bottom: 2.5rem;
+}
+
+.table-div table{
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+  border-width: 1px;
+}
+
+.table-div table thead tr,.table-div table tbody tr{
+  border-bottom-width: 1px;
+}
+
+th,td{
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+}
+
+.hr{
+  border-width: 1px;
+  border-color: black;
+  margin-bottom: 2.5rem;
+}
+
+.summary-invoise{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 2.5rem;
+  row-gap: 0.75rem;
+  column-gap: 3rem;
+}
+
+.summary-invoise div{
+  display: flex;
+ justify-content: space-between;
+ border-bottom-width: 1px;
+}
+
+.totals-invoise{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  border-bottom-width: 1px;
+
+}
+
+.footer-invoise{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
